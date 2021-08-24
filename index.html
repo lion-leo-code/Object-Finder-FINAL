@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>AI Object Identifier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+<center>
+  <h1 class="btn btn-warning heading"><marquee>Artificial - Intelligence Object Identifier</marquee><br>
+  <label><i>NOTE: </i> Enter name in the below input box. The (COCO SSD) model will check whether it can identify that object live.</label></h1>
+  <br><br>
+  <input id="object_name" placeholder="Enter Object/Organism to be found"></input>
+  <br>
+  <h4 class="btn btn-warning" id="YesORNo"></h4>
+  <br><br>
+  <button class="btn btn-success" onclick="start();">Start>></button>
+  <br>
+  <h3 class="btn btn-danger" id="number_of_objects"></h3>
+  <br><br>
+  <h3 class="btn btn-primary" id="status"></h3>
+</center>
+
+<div class="copy_right_footer">Devoloped by - Akshay Banga</div>
+<script src="main.js"></script>
+
+</body>
+
+</html>
